@@ -1,0 +1,6 @@
+{
+  "name": "arkLess",
+  "description": "Dashboard corporativo para la prevención del abandono de clientes (Churn Prevention) con análisis predictivo de riesgo e inteligencia artificial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
