@@ -5,13 +5,13 @@
 ╚══════════════════════════════════════════════════════════════╝
 """
 
-import pandas as pd
-import numpy as np
-import os
-import joblib
-from xgboost import XGBClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, roc_auc_score
+import pandas as pd         # type: ignore
+import numpy as np          # type: ignore
+import os                   # type: ignore
+import joblib               # type: ignore
+from xgboost import XGBClassifier                                   # type: ignore
+from sklearn.model_selection import train_test_split                # type: ignore
+from sklearn.metrics import classification_report, roc_auc_score    # type: ignore
 
 INPUT_DIR  = "raw" 
 OUTPUT_DIR = "clean"
