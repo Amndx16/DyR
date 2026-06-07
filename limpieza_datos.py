@@ -13,7 +13,7 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, roc_auc_score
 
-INPUT_DIR  = "."
+INPUT_DIR  = "raw"
 OUTPUT_DIR = "clean"
 MODEL_DIR  = "modelo"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
