@@ -1,4 +1,6 @@
 # DyR
+[Enlace de Google Drive](https://drive.google.com/file/d/1kqFJb_rX1nq7G-TVnFEgnPcXvKUt3bP0/view?usp=sharing)
+
 # Churn Hunters — Anticipándonos al abandono de clientes
 Pipeline de ML para predecir qué clientes B2B están en riesgo de abandono antes de que ocurra, y explicar en lenguaje natural las razones detrás de cada predicción. Genera una probabilidad de churn por cliente, una etiqueta de riesgo (Alto/Medio/Bajo) y las 3 principales razones de riesgo listas para el dashboard del vendedor.
 
@@ -27,19 +29,3 @@ python limpieza_datos.py
 
 # Paso 2: explicaciones SHAP por cliente
 python limpieza2.py
-```
-
-`limpieza_datos.py` limpia los 5 archivos, construye 15 features por cliente a partir de su historial de ventas y coolers, entrena el modelo XGBoost y genera las predicciones. `limpieza2.py` usa SHAP para identificar qué factores influyeron más en la predicción de cada cliente y los traduce a frases legibles.
-
-**Outputs en `modelo/`:**
-- `preds_submission_final.csv` — probabilidad de churn + etiqueta Alto/Medio/Bajo
-- `explicaciones_clientes.csv` — top 3 razones en lenguaje natural por cliente
-
----
-## .gitignore
-*.csv
-*.xlsx
-*.zip
-*.parquet
-*.pkl
-*.joblib
