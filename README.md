@@ -18,7 +18,7 @@ https://drive.google.com/drive/folders/1ChdwioLOkDYRCDSg438V4PGLimtaeobQ?usp=sha
 | `preds_submission.csv` | Template de entrega |
 
 ---
-## Uso
+## Ejecución
 ```bash
 pip install -r requirements.txt
 
