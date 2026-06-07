@@ -1,6 +1,4 @@
 Data - Churn Hunters/
-*.csv
-*.xlsx
 *.zip
 *.parquet
 *.pkl
