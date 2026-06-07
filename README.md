@@ -1,5 +1,6 @@
 # DyR
 [Enlace de Google Drive](https://drive.google.com/file/d/1kqFJb_rX1nq7G-TVnFEgnPcXvKUt3bP0/view?usp=sharing)
+NOTA : Los resultados del Modelo PRedictivo XGBoost se encuentan en la carpeta ArkLess en eplicaciones_clientes_final.csv
 
 # Churn Hunters — Anticipándonos al abandono de clientes
 Pipeline de ML para predecir qué clientes B2B están en riesgo de abandono antes de que ocurra, y explicar en lenguaje natural las razones detrás de cada predicción. Genera una probabilidad de churn por cliente, una etiqueta de riesgo (Alto/Medio/Bajo) y las 3 principales razones de riesgo listas para el dashboard del vendedor.
